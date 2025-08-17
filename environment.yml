@@ -1,1 +1,21 @@
-
+name: quantml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - pandas>=2.0
+  - scipy>=1.11
+  - matplotlib>=3.8
+  - seaborn>=0.12
+  - jupyter>=1.0
+  - ipykernel
+  - ipywidgets
+  - scikit-learn>=1.3
+  - xgboost>=1.7
+  - pytorch=2.1
+  - torchvision=0.16
+  - torchaudio=2.1
+  - tqdm>=4.66
+  - quantlib-python=1.32
